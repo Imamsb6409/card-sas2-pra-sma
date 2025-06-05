@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: " Open Sans";
+}
+body .container {
+  background-color: #5267d7;
+  width: 314px;
+  height: 425px;
+  border-radius: 12px;
+}
+body .container .card {
+  padding: 11px 23px;
+  display: flex;
+  flex-direction: column;
+}
+body .container .card h1 {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: white;
+  .money {
+    margin-left: 15px;
+    font-family: "Open Sans";
+  }
+}
+body .container .card .underH1 {
+  display: flex;
+  align-items: center;
+  column-gap: 65px;
+  margin-top: -30px;
+  p {
+    margin-top: 5px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+
+    color: #dedede;
+  }
+  span {
+    margin-top: -10px;
+    width: 18px;
+    height: 2px;
+    background-color: white;
+  }
+}
+body .container .card .card-body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  color: #fff;
+  gap: 2px;
+  h2 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
+  p {
+    text-align: left;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    column-gap: 30px;
+    i {
+      width: 12px;
+    }
+  }
+}
+body .container .card .button {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: #d7d7d7;
+    margin-left: -125px;
+
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    &:hover {
+        color: #545454;
+    }
+  }
+  button {
+    color: black;
+    width: 204px;
+    height: 42px;
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    border: none;
+  }
+}
